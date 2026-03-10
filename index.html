@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Venda de Site</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#0a2540;
+color:white;
+padding:40px 20px 80px 20px; /* aumenta o padding inferior pra não esconder conteúdo atrás do menu */
+text-align:center;
+}
+
+.logo{
+width:220px;
+margin-bottom:15px;
+}
+
+header h1{
+margin:0;
+font-size:36px;
+}
+
+header p{
+font-size:18px;
+opacity:0.9;
+}
+
+nav{
+background:#163a5f;
+padding:12px;
+text-align:center;
+position: sticky; /* isso deixa fixo */
+top: 0;             /* topo da página */
+z-index: 1000;      /* garante que fique na frente do conteúdo */
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+font-size:16px;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+section{
+padding:60px 20px;
+text-align:center;
+}
+
+h2{
+color:#0a2540;
+margin-bottom:20px;
+}
+
+.servicos{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+width:230px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+color:#0a2540;
+}
+
+.preco{
+font-size:22px;
+font-weight:bold;
+color:#0a2540;
+margin:10px 0;
+}
+
+.whatsapp{
+display:inline-block;
+margin-top:20px;
+padding:15px 25px;
+background:#25D366;
+color:white;
+font-weight:bold;
+text-decoration:none;
+border-radius:8px;
+}
+
+.whatsapp:hover{
+background:#1ebe5d;
+}
+
+footer{
+background:#0a2540;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="logo.png" class="logo" alt="Venda de Site">
+<h1>Venda de Site</h1>
+<p>Criamos sites profissionais para empresas crescerem na internet</p>
+</header>
+
+<nav>
+<a href="#sobre">Sobre</a>
+<a href="#servicos">Serviços</a>
+<a href="#precos">Preços</a>
+<a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+<h2>Sobre Nós</h2>
+<p>
+A <b>Venda de Site</b> é uma empresa especializada em criação de sites modernos,
+rápidos e profissionais para empresas que querem crescer na internet.
+</p>
+<p>
+Fundada por <b>Pedro Henrique</b> e <b>Davi Lucas</b>, nosso objetivo é ajudar
+negócios a terem presença online com sites bonitos e acessíveis.
+</p>
+</section>
+
+<section id="servicos">
+<h2>Nossos Serviços</h2>
+<div class="servicos">
+<div class="card">
+<h3>Criação de Sites</h3>
+<p>Sites modernos e profissionais para empresas.</p>
+</div>
+<div class="card">
+<h3>Landing Pages</h3>
+<p>Páginas para vendas e divulgação.</p>
+</div>
+<div class="card">
+<h3>Atualização de Sites</h3>
+<p>Melhoramos e modernizamos sites antigos.</p>
+</div>
+</div>
+</section>
+
+<section id="precos">
+<h2>Planos e Preços</h2>
+<div class="servicos">
+<div class="card">
+<h3>Site Básico</h3>
+<p class="preco">R$120</p>
+<p>✔ 1 página</p>
+<p>✔ Design profissional</p>
+<p>✔ Botão de WhatsApp</p>
+</div>
+<div class="card">
+<h3>Site Profissional</h3>
+<p class="preco">R$250</p>
+<p>✔ Até 5 páginas</p>
+<p>✔ Layout moderno</p>
+<p>✔ Site rápido</p>
+</div>
+<div class="card">
+<h3>Site Premium</h3>
+<p class="preco">R$400</p>
+<p>✔ Várias páginas</p>
+<p>✔ Design personalizado</p>
+<p>✔ Suporte</p>
+</div>
+</div>
+</section>
+
+<section id="contato">
+<h2>Contato</h2>
+<p>Entre em contato para criar seu site profissional.</p>
+<p><b>TikTok:</b> @empresarialdesites123</p>
+<a class="whatsapp" href="https://wa.me/5535997736511" target="_blank">Falar no WhatsApp</a>
+</section>
+
+<footer>
+<p>© 2026 Venda de Site</p>
+<p>Fundadores: Pedro Henrique e Davi Lucas</p>
+</footer>
+
+</body>
+</html>
